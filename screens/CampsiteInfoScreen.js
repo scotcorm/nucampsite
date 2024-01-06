@@ -46,7 +46,7 @@ const CampsiteInfoScreen = ({ route }) => {
         />
         <Text style={{ fontSize: 12 }}>{item.rating} Stars</Text>
         <Text style={{ fontSize: 12 }}>
-          {`-- ${item.author}, ${item.date}`}
+          {`-- ${item.author}, ${item.date}, ${item.text}`}
         </Text>
       </View>
     );
