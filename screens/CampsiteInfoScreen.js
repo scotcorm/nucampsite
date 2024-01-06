@@ -106,9 +106,10 @@ const CampsiteInfoScreen = ({ route }) => {
             onChangeText={(text) => setText(text)}
             value={text}
           />
+
           <View style={{ margin: 10 }}>
             <Button
-              onpress={() => {
+              onPress={() => {
                 handleSubmit();
                 resetForm();
               }}
